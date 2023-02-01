@@ -15,7 +15,7 @@ html, body {
 
 /*****************************************************/
 header {
-    min-height: 100vh;
+    min-height: 90vh;
     background-image: url("../images/desktop/image-header.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -55,8 +55,7 @@ header .header {
 .nav1 li a:hover{
     text-decoration: underline;
 }
-.nav1 button,
- .nav2 button{
+.btn, .btn2{
     padding: 7px 15px;
     margin-left: 15px;
     color: #000;
@@ -67,9 +66,9 @@ header .header {
     font-size: 16px;
     font-weight: 700;
     transition: all .5s ease;
+    font-family: 'Poppins', sans-serif;
 }
-.nav1 button:hover,
-.nav2 button:hover {
+.btn:hover{
     color: rgb(255, 255, 255);
     background-color: rgba(255, 255, 255, 0.364);
 }
@@ -114,11 +113,11 @@ header .img1 {
 .nav2 li a:hover{
     text-decoration: underline;
 }
-.nav2 button{
+.btn2{
     background-color: hsl(51, 100%, 49%);
     margin: 10px;
 }
-.nav2 button:hover{
+.btn2:hover{
     background-color: hsl(51, 100%, 68%);
     color: rgb(63, 63, 63);
 }
@@ -267,7 +266,7 @@ main {
 
 /*--------------------------------*/
 .testimonial {
-    min-height: 100vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
